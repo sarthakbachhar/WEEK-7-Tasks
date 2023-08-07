@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      HTML Form Test
+    </title>
+    <style>
+      .main{
+        width: 400px;
+        height: 700px;
+        border: 1px solid black;
+        margin-left: 5px;
+      }
+      .heading{
+        font-weight: bold;
+        margin-left: 5px;
+      }
+      .name p input{
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+    <p class="heading">HTML Form Test</p>
+    <br>
+    <div class="name">
+      <p>Name</p>
+      <input type="text">
+    </div>
+    <div class="address">
+      <p>Address</p>
+      <input type="text">
+    </div>
+    <div class="email">
+      <p>Email</p>
+      <input type="text">
+    </div>
+    <div class="gender">
+      <p>Gender</p>
+      <input type="radio"><label>Male</label>
+      <input type="radio"><label>Female</label>
+    </div>
+    <div class="Hobbies">
+      <p>Hobbies</p>
+      <input type="checkbox"><label>Sports</label>
+      <input type="checkbox"><label>Movies</label>
+      <input type="checkbox"><label>Travelling</label>
+    </div>
+    <div class="country">
+      <p>Country</p>
+      <select id="country">
+        <option value="Nepal">Nepal</option>
+        <option value="China">China</option>
+        <option value="India">India</option>
+        </select>
+    </div>
+    <div class="message">
+      <p>Message</p>
+      <textarea id="freeform" name="freeform" rows="4" cols="50"></textarea>
+    </div>
+  </div>
+  </body>
+</html>
